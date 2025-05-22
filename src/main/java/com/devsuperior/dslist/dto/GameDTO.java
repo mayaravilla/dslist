@@ -2,8 +2,10 @@ package com.devsuperior.dslist.dto;
 
 import com.devsuperior.dslist.entities.Game;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class GameDTO {
 
     private Long id;
@@ -11,10 +13,6 @@ public class GameDTO {
     private Integer year;
     private String imgUrl;
     private String shortDescription;
-
-    public GameDTO(){
-
-    }
 
     public GameDTO(Game entity) {
         shortDescription = entity.getShortDescription();
