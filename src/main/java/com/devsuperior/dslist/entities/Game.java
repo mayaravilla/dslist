@@ -1,6 +1,5 @@
 package com.devsuperior.dslist.entities;
 
-import com.devsuperior.dslist.dto.GameDTO;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
